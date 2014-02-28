@@ -1,0 +1,43 @@
+name:                Workshop
+version:             0.3.0.0
+synopsis:            A Haskell tutorial aiming to demonstrate the basics of developing in Haskell.
+license:             MIT
+license-file:        LICENSE
+author:              Alejandro Cabrera
+maintainer:          Alejandro Cabrera <cpp.cabrera@gmail.com>
+category:            Tutorial
+build-type:          Custom
+tested-with:         GHC == 7.8.1
+cabal-version:       >=1.10
+
+library
+  ghc-options: -Wall
+  hs-source-dirs: src
+  exposed-modules:
+    Tutorial.Shift
+  build-depends:
+    base >=4.7 && <5.0
+  default-language:    Haskell2010
+
+test-suite props
+  type: exitcode-stdio-1.0
+  hs-source-dirs: src tests
+  main-is: Properties.hs
+  build-depends:
+    base,
+    Workshop,
+    QuickCheck,
+    test-framework,
+    test-framework-quickcheck2
+  default-language:    Haskell2010
+
+benchmark shifty-bench
+  type: exitcode-stdio-1.0
+  hs-source-dirs: src bench
+  main-is: Main.hs
+  build-depends:
+    base,
+    Workshop,
+    criterion
+  ghc-options: -Wall -O2
+  default-language:    Haskell2010
