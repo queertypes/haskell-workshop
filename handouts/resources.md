@@ -11,6 +11,7 @@
 1. [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929) (book)
 1. [Yesod Framework](http://www.yesodweb.com/book) (book)
 1. [Purely Functional Data Structures](http://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)[Amazon](http://www.amazon.com/Purely-Functional-Structures-Chris-Okasaki/dp/0521663504)
+1. [You could have invented Monads yourself](http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html)
 
 ### Community
 
