@@ -3,8 +3,8 @@ version:             0.3.0.0
 synopsis:            A Haskell tutorial aiming to demonstrate the basics of developing in Haskell.
 license:             MIT
 license-file:        LICENSE
-author:              Alejandro Cabrera
-maintainer:          Alejandro Cabrera <cpp.cabrera@gmail.com>
+author:              Allele Dev
+maintainer:          Allele Dev <allele.dev@gmail.com>
 category:            Tutorial
 build-type:          Custom
 tested-with:         GHC == 7.8.1
